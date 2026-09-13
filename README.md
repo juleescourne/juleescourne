@@ -1,60 +1,34 @@
 # Jules Courné
 
-**Ingénieur Data — Data Analyst & Data Engineer**
-SQL · Python · ETL · Modélisation dimensionnelle · Power BI · Machine learning appliqué
+**Data Analyst / BI junior · SQL, Python, qualité des données et Power BI**
 
-Basé à Rouen, en Normandie. Je recherche un **premier CDI** en Data Analyst,
-Business Intelligence ou Data Engineering.
+Diplômé ingénieur de **Polytech Tours en 2024 — système d’informations & data**.
+Basé à Rouen, je recherche un **CDI en Data Analyst ou BI**, avec une ouverture aux postes de Data Engineer junior orientés Python / SQL.
 
-**Portfolio et démos → [juleescourne.github.io/portfolio-data-analyst](https://juleescourne.github.io/portfolio-data-analyst/)**
-· [jules.courne@gmail.com](mailto:jules.courne@gmail.com)
+[Portfolio et CV](https://juleescourne.github.io/portfolio-data-analyst/) · [Me contacter](mailto:jules.courne@gmail.com)
 
----
+## Trois projets pour découvrir mon travail
 
-## Ce que je sais faire, et où c'est vérifiable
+| Projet | Compétences et preuves | Reproduction |
+| --- | --- | --- |
+| [Goodreads Analytics ETL](https://github.com/juleescourne/goodreads-analytics-etl) | Pipeline Python, schéma en étoile, mises à jour, stabilité des clés et rollback testés de bout en bout | Échantillon synthétique, tests automatisés et commandes dans le README |
+| [Hospital SQL Analytics](https://github.com/juleescourne/hospital-sql-analytics) | CTE, fenêtres, qualité et interprétation de KPI sur 7 160 passages synthétiques | Exécution MySQL automatisée, résultats TSV et synthèse dans `results/` |
+| [Aide au choix d’outil coupant](https://github.com/juleescourne/cutting-tool-recommender) | Données industrielles, modèle relationnel et ACP ; projet de fin d’études | Démo et procédure dans le dépôt |
 
-| Compétence | Projet qui la démontre |
-| --- | --- |
-| Pipeline ETL, schéma en étoile, chargement incrémental | [goodreads-analytics-etl](https://github.com/juleescourne/goodreads-analytics-etl) — 278 tests automatisés |
-| SQL analytique, fonctions fenêtres, cohortes | [hospital-sql-analytics](https://github.com/juleescourne/hospital-sql-analytics) — 7 160 passages, 18 contrôles qualité |
-| Modélisation relationnelle, ACP, aide à la décision | [cutting-tool-recommender](https://github.com/juleescourne/cutting-tool-recommender) — 12 entités, démo interactive |
-| Classification, arbitrage métier d'un seuil | [customer-churn-prediction](https://github.com/juleescourne/customer-churn-prediction) — fuite de données détectée et retirée |
-| Régression, feature engineering géographique | [california-housing-price-prediction](https://github.com/juleescourne/california-housing-price-prediction) — validation croisée |
-| Visualisation, ingestion CSV côté client | [qvt-analysis](https://github.com/juleescourne/qvt-analysis) — traitement 100 % local |
+## Parcours
 
-Chaque dépôt s'exécute après un simple clone : les jeux de données sous licence ne
-sont pas redistribués, mais un générateur de données synthétiques les remplace.
+- **SOLUTEC — CDI, septembre 2025 à janvier 2026** : formations internes en Git, Docker et IA agentique pendant une période d’intercontrat, sans mission client.
+- **SOLUTEC — stage de fin d’études Data Analyst & Data Engineer, avril à août 2024**.
+- **Projet de fin d’études Data Scientist, 2023–2024** : aide au choix d’outil coupant.
+- **LIFAT — stage Data Scientist R&D, mai à septembre 2023** : traitement du langage.
 
----
+## Machine learning : comparer, évaluer, expliciter les limites
 
-## Trois choses sur ma façon de travailler
+- [Résiliation client](https://github.com/juleescourne/customer-churn-prediction) : baseline logistique, choix du modèle et du seuil sur validation, rapport de test et coût des fausses alertes. Les départs détectés ne sont pas des départs évités.
+- [California Housing](https://github.com/juleescourne/california-housing-price-prediction) : baseline constante, séparation par blocs géographiques, rapport reproductible. Données de 1990, inadaptées à une estimation immobilière actuelle.
 
-**Les projets tournent.** Pas de « il faudrait télécharger tel dataset » : chaque
-dépôt embarque un générateur, une commande de démarrage et sa documentation.
+Les scripts ML nécessitent les données publiques indiquées dans leur README ; les démonstrations navigateur utilisent des modèles historiques distincts. Les tableaux de bord Power BI sont présentés en captures : les mesures proposées et contrôles SQL sont documentés dans le dossier `bi/` de Goodreads, mais le fichier Power BI original reste à fournir.
 
-**Les contrôles qualité sont démontrés, pas affirmés.** Mes jeux de démonstration
-contiennent des doublons, des dates impossibles et des valeurs hors bornes — pour
-que les traitements aient quelque chose à corriger, et que ça se voie dans les logs.
+## Outils utilisés dans ces projets
 
-**Les limites sont écrites.** Sur le projet de churn, le résultat dont je suis le
-plus satisfait est d'avoir retiré une variable corrélée à 1,00 avec la cible : elle
-donnait 99 % de justesse et zéro valeur opérationnelle.
-
----
-
-## Stack
-
-**Données** SQL · MySQL · SQLite · PostgreSQL · modélisation dimensionnelle et relationnelle · qualité des données
-**Python** pandas · NumPy · scikit-learn · XGBoost · Pydantic · SQLAlchemy
-**BI** Power BI · Plotly · Vega-Lite · Matplotlib
-**Ingénierie** Git · pytest · GitHub Actions · Docker · Flask
-
----
-
-## Documentation
-
-Chaque projet est documenté en quatre volets : présentation, installation,
-utilisation, et spécifications techniques — y compris les algorithmes.
-
-Exemple : [le brassage des couloirs BMX](https://github.com/juleescourne/bmx-competition-manager/blob/main/ARCHITECTURE.md#3-algorithme-de-brassage-des-couloirs),
-un carré latin 8 × 5 dont les trois propriétés se vérifient en une commande.
+SQL · MySQL · SQLite · Python · pandas · SQLAlchemy · Power BI · Plotly · scikit-learn · XGBoost · Git · pytest · Docker · GitHub Actions
