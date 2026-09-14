@@ -27,7 +27,7 @@ Basé à Rouen, je recherche un **CDI en Data Analyst ou BI**, avec une ouvertur
 - [Résiliation client](https://github.com/juleescourne/customer-churn-prediction) : baseline logistique, choix du modèle et du seuil sur validation, rapport de test et coût des fausses alertes. Les départs détectés ne sont pas des départs évités.
 - [California Housing](https://github.com/juleescourne/california-housing-price-prediction) : baseline constante, séparation par blocs géographiques, rapport reproductible. Données de 1990, inadaptées à une estimation immobilière actuelle.
 
-Les scripts ML nécessitent les données publiques indiquées dans leur README ; les démonstrations navigateur utilisent des modèles historiques distincts. Les tableaux de bord Power BI sont présentés en captures : les mesures proposées et contrôles SQL sont documentés dans le dossier `bi/` de Goodreads, mais le fichier Power BI original reste à fournir.
+Les scripts ML nécessitent les données publiques indiquées dans leur README ; les démonstrations navigateur utilisent des modèles historiques distincts. Les tableaux de bord Power BI sont présentés en captures : les mesures proposées et contrôles SQL sont documentés dans le dossier `bi/` de Goodreads, mais le fichier Power BI original n’a pas été conservé. Les captures illustrent la restitution ; les mesures proposées constituent une base de reconstruction non validée dans Power BI Desktop.
 
 ## Outils utilisés dans ces projets
 
