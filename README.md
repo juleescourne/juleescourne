@@ -7,14 +7,14 @@ Basé à Rouen, je recherche un **CDI en Data Analyst ou BI**, avec une ouvertur
 
 Je pars d’une question métier, je contrôle les données et je construis des indicateurs dont j’explique les limites. Mes projets personnels accompagnent ma montée en compétences et ma recherche d’emploi.
 
-[Portfolio et CV](https://juleescourne.github.io/portfolio-data-analyst/) · [LinkedIn](https://www.linkedin.com/in/jules-courn%C3%A9/) · [Me contacter](mailto:jules.courne@gmail.com)
+[Portfolio et CV](https://juleescourne.github.io/portfolio-data-analyst/) · [LinkedIn](https://www.linkedin.com/in/jules-courn%C3%A9-430a79230/) · [Me contacter](mailto:jules.courne@gmail.com)
 
 ## Analyses métier & Power BI
 
 | Projet | Question étudiée | Travail et livrables |
 | --- | --- | --- |
-| [Assurance automobile](https://github.com/juleescourne/assurance-auto-analytics) | Quels segments concentrent les sinistres, et lesquels ont une fréquence élevée ? | 678 013 contrats ; contrôle des rapprochements, fréquence rapportée à l’exposition, analyse globale et approfondie, trois notebooks et projet Power BI |
-| [Goodreads — du catalogue à la sélection](https://github.com/juleescourne/goodreads-analytics-etl) | Comment proposer une sélection de livres en français à partir d’un catalogue imparfait ? | 1,85 million de fiches ; qualité, critères et sensibilité de la sélection, 20 fiches à vérifier, trois notebooks et projet Power BI |
+| [Assurance automobile](https://github.com/juleescourne/assurance-auto-analytics) | Quels segments concentrent les sinistres, et lesquels ont une fréquence élevée ? | 678 013 contrats ; contrôle des rapprochements, fréquence rapportée à l’exposition, quatre priorités d’investigation et cinq dashboards Power BI commentés |
+| [Goodreads — du catalogue à la sélection](https://github.com/juleescourne/goodreads-analytics-etl) | Comment proposer une sélection de livres en français à partir d’un catalogue imparfait ? | 1,85 million de fiches ; contrôle qualité, six scénarios comparés, 20 propositions plafonnées à deux fiches par auteur et trois dashboards Power BI commentés |
 | [Hospital SQL Analytics](https://github.com/juleescourne/hospital-sql-analytics) | Comment analyser les parcours patients et la couverture assureur avec des KPI cohérents ? | 7 160 passages synthétiques ; CTE, fonctions fenêtres, contrôles qualité, résultats MySQL et synthèse |
 
 Les études Assurance et Goodreads suivent le même parcours : **cadrage → dictionnaire des KPI → qualité → analyse globale → analyse approfondie → Power BI**. Les notebooks conservent leurs résultats et les sources sont documentées pour reproduire les traitements.
@@ -24,7 +24,7 @@ Quelques enseignements :
 - **Assurance :** un grand volume de sinistres ne signifie pas une fréquence élevée. Les montants manquants et les six contrats orphelins restent visibles dans l’analyse.
 - **Goodreads :** une bonne note sur peu d’avis ne suffit pas à recommander un livre. La liste proposée reste à vérifier ; aucun gain de ventes n’est revendiqué.
 
-Les rapports Power BI sont fournis au format source **PBIP**. Leurs README précisent les contrôles réalisés et ceux restant à faire dans Desktop : pour Goodreads, les mesures DAX ont été rapprochées de Pandas ; pour l’assurance, les calculs et le rendu Desktop restent à confirmer.
+Les parcours [Assurance](https://juleescourne.github.io/portfolio-data-analyst/#/assurance) et [Goodreads](https://juleescourne.github.io/portfolio-data-analyst/#/goodreads) présentent les captures des rapports Power BI avec zoom, constats, interprétations et suites proposées. Les PDF sont consultables sans compte Power BI ; les sources **PBIP** et les notebooks restent disponibles dans les dépôts. Leurs README précisent le périmètre des contrôles effectués.
 
 ## Modélisation & aide à la décision
 
